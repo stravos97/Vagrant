@@ -3,6 +3,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "winxp"
   
   config.vm.provider "virtualbox" do |vb|
+    vb.name = "xp"
     vb.memory = "1024"
     vb.cpus = "2"
   end
