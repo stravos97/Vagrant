@@ -21,3 +21,6 @@ To create a base box run "vagrant package -h"
 run "VBoxManage list vms"
 run "vagrant package --base winxp" (after --base is name of vm listed from previous command)
 rename package.box to something useful e.g. winxp.box
+
+General
+Run vegrant reload if the Vagrantfile is edited and you want to reload the vm without losing important data
